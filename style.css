@@ -231,3 +231,65 @@ label .label-text:before {
     background-color: var(--tag-color-four);
     color: var(--tag-color-text-four)
 }
+
+.upcoming {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+/*  */
+.members {
+    display: flex;
+    margin-top: 14px;
+}
+
+.members img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 4px;
+    object-fit: cover;
+}
+
+.right-bar {
+    width: 320px;
+    border-left: 1px solid #e3e7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bar .header {
+    font-size: 20px;
+    color: var(--main-text-color);
+    margin-left: 30px;
+}
+
+.top-part {
+    padding: 30px;
+    align-self: flex-end;
+}
+
+.top-part img {
+    width: 14px;
+    height: 14px;
+    color: var(--main-color)
+}
+
+.top-part .count {
+    font-size: 12px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #623ce8;
+    color: #fff;
+    justify-content: center;
+}
+
+.right-content {
+    padding: 10px 40px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.
